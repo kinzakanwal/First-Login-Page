@@ -2,30 +2,90 @@
 <html>
 <style>
 body{
-		background-image: url("https://www.desiringgod.org/assets/2/social/dg_logo_facebook_fallback-1b7a5ed0b26ad75e6bffa6faeb1be2784b7d189a0b13c4d2c7287b4dda2d71ab.png");
+		background-color: red;
 		background-size: cover;
 	}
+	.main{
+		padding-top: 50px;
+    height: 320px;
+    width: 300px;
+    background-color:white;
+    box-shadow: 5px 5px 10px #b2b2b2;
+    margin: 100px 550px;
+}
+.heading{
+		height: 80px;
+    width: 300px;
+    
+}
+.heading h1{
+    text-align: center;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.user .password{
+    height: 50px;
+}
+.info input{
+    height: 40px;
+    width: 260px;
+    margin: 8px 18px;
+    background-color: transparent;
+    border: 1px solid gray;
+    text-align: center;
+    outline: none;
+    
+}
+.logIn{
+    height: 50px;
+    width: 300px;
+}
+.logIn button{
+    height: 40px;
+    width: 260px;
+    margin: 5px 18px;
+    background-color:red	;
+		border: 1px solid red;
+		color: white;
+}
+button:on click{
+    border: none;
+}
+.remember input{
+    margin-left: 18px;
+    margin-top: 15px;
+}
+label{
+    font-size: 12px;
+}
+.remember a{
+    margin-left: 85px;
+    font-size: 12px;
+}
 		</style>
 	<head>
 		<meta charset="utf-8">
 		<title>Input From UIUX Design</title>
 	</head>	
 	<body>
-
-		
-		<div class="box">
-			<h2>Login</h2>
-			<form>
-			<div class="inputBox">
-					<input type="text" name="" required="">
-					<label>Username</label>
-				</div>
-				<div class="inputBox">
-					<input type="password" name="" required="">
-					<label>password</label>
-				</div>
-				<input type="submit" name=""value="Submit">
-			</form>	
-		</div>
+		<div class="main">
+		<div class="heading">
+			<h1>Login Form </h1>
+	</div>
+	<div class="info">
+			<div class="user">
+					<input type="text" placeholder="Enter your user name">
+			</div>
+			<div class="password">
+					<input type="text" placeholder="Enter your password">
+			</div>
+			<div class="logIn">
+					<button class="log_button">
+						 <b>Log in</b>
+					</button>
+			</div>  
+	</div>
+</div>
 	</body>
 </html>
